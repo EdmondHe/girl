@@ -3,3 +3,25 @@ server:
 girl:
   cupSize: B
   age: 18
+spring:
+  application:
+    name: com.imooc.girl
+
+#####################################################################################################
+# mysql 属性配置
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/girl
+      username: root
+      password: zhenxin
+
+#####################################################################################################
+# 打印日志
+logging:
+  level:
+    root: info
+    org.hibernate: info
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+    com.springms: DEBUG
+#####################################################################################################
