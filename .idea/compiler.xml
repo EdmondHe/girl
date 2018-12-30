@@ -7,10 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="girl" />
+        <module name="maven-archiver" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="girl" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
