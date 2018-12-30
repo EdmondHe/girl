@@ -1,4 +1,4 @@
-package com.imooc.girl.ssmDemo;
+package com.imooc.girl.ssmDemo.jdkProxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
